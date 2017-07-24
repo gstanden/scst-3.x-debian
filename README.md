@@ -35,7 +35,9 @@ To uninstall SCST after installing with this fork:
 
 	Removal should be complete.
 
-	Optionally, you are now ready to reinstall again using this fork following the exact same procedure (just run the build-debian-dkms-scst.sh script as before)
+	Optionally, you are now ready to reinstall again using this fork following the exact same procedure:
+
+		(just run the build-debian-dkms-scst.sh script as before)
 
 To use this to build dkms-enabled SCST on Debian-based systemd-enabled Linuxes:
 

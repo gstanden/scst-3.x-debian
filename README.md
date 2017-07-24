@@ -88,6 +88,8 @@ Use it optionally to fully-automate SCST file-backed SAN creation and configurat
 
 The scripts create target, create LUNs, configure multipath, and configure UDEV rules, all fully automated.
 
+Edit create-scst.sh before running and modify parameters on create-scst-oracle.sh to suit your requirements.
+
 To use it untar the scst-files.tar, cd scst-files, and launch ./create-scst.sh and scripts do the rest.
 
 The scripts are easily readable in bash, so you can customize them to meet your needs.

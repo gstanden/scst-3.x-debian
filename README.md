@@ -40,9 +40,7 @@ If you need to install dkms-enabled SCST on pre-systemd Debian-based release (e.
 
 (1)  Please use the original github this was forked from:  https://github.com/tinuzz 
 
-(2)  Use my blog detailed guide here for detailed steps on using https://github.com/tinuzz   
-
-	https://sites.google.com/site/nandydandyoracle/scst/scst-debian-dkms-package-build-from-source-ubuntu-14-04
+(2)  Read: https://sites.google.com/site/nandydandyoracle/scst/scst-debian-dkms-package-build-from-source-ubuntu-14-04
 
 # Orabuntu-LXC
 

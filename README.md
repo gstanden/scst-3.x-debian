@@ -7,9 +7,11 @@ Sincere thanks and recognition to the following people who established this gith
 
 # Credits
 
-Martijn Gendelman credits Fajar A. Nugraha and Adrian Stachowski, so I do too.
-This github was forked from really great github by Martijn Grendelman
+Martijn Grendelman credits Fajar A. Nugraha and Adrian Stachowski for early work on this.
+This github was forked from really great github by Martijn Grendelman.
 Words are hardly adequate to express my thanks to these pioneering developers.
+
+# Notes
 
 This fork has been updated for SCST 3.3.0 (latest release)
 
@@ -21,9 +23,9 @@ This fork should work on all systemd-enabled Debian-based linuxes (e.g. Linux Mi
 
 If you test it out, recommend using a dedicated test VM first.
 
+#Install
 
 To install this to build dkms-enabled SCST on Debian-based systemd-enabled Linuxes:
-
 
 (1)   cd /home/username/Downloads (be sure "username" user has full "sudo" privileges 
 
@@ -51,6 +53,7 @@ NOTE: The instructions which follow this updated from the original repository DO
      
        Only use the instructions above for this fork.
 
+# Uninstall
 
 To uninstall SCST after installing with this fork:
 

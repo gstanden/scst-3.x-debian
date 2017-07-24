@@ -28,7 +28,9 @@ Words are hardly adequate to express my thanks to these pioneering developers.
 
 This fork has been updated for SCST 3.3.0 (latest release)
 
-This fork has been updated for Ubuntu 17.04 (tested)
+This fork has been updated for Ubuntu 17.04 (tested), Ubuntu 16.04 (tested)* and Ubuntu 15.04 (tested)
+
+*On Ubuntu 16.04 testing was successful EXCEPT in some cases where many multiple old kernels were on the host so YMMV.
 
 This fork should work on all systemd-enabled Ubuntu releases (15.04+) (not tested yet)
 

@@ -9,7 +9,7 @@ This fork has been updated for Ubuntu 17.04 (tested)
 
 This fork should work on all systemd-enabled Ubuntu releases (15.04+) (not tested yet)
 
-This fork should work on all systemd-enabled Debian-based linuxes in general (e.g. Linux Mint if using systemd) (not tested yet)
+This fork should work on all systemd-enabled Debian-based linuxes (e.g. Linux Mint if using systemd) (not tested yet)
 
 If you test it out, recommend using a dedicated test VM first.
 

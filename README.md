@@ -56,9 +56,7 @@ This work on SCST is driven by that project, but the SCST work is quite general 
 
 To install this to build dkms-enabled SCST on Debian-based systemd-enabled Linuxes:
 
-(1)   cd /home/username/Downloads (be sure "username" user has full "sudo" privileges 
-
-           (typically the user created when Ubuntu was installed).
+(1)   cd /home/username/Downloads (be sure "username" user has full "sudo" privileges) e.g. install user 
 
 (2)   Download the scst-3.x-debian.zip file to (for example) /home/username/Downloads/scst-3.x-debian.zip
 

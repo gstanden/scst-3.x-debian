@@ -66,7 +66,7 @@ To install this to build dkms-enabled SCST on Debian-based systemd-enabled Linux
 
 (5)   svn co https://svn.code.sf.net/p/scst/svn/trunk scst-latest
 
-(6)   mv the scst-3.x-debian directory to be subdirectory of scst-latest 
+(6)   mv and rename the scst-3.x-debian directory to be subdirectory of scst-latest 
 
 (7)   cd ~/Downloads/scst-latest/debian
 
@@ -75,10 +75,6 @@ To install this to build dkms-enabled SCST on Debian-based systemd-enabled Linux
 (9)   the script takes care of all the rest automatically
 
 (10)  reboot is suggested (but not mandatory) after install
-
-NOTE: The instructions which follow this updated from the original repository DO NOT APPLY to this updated fork.
-     
-       Only use the instructions above for this fork.
 
 # Configure SCST SAN
 

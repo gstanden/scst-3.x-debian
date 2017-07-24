@@ -41,28 +41,33 @@ To uninstall SCST after installing with this fork:
 
 To use this to build dkms-enabled SCST on Debian-based systemd-enabled Linuxes:
 
-(0.5) cd /home/username/Downloads (be sure "username" user has full "sudo" privileges - typically the user created when Ubuntu was installed (for desktop anyway).
+(1)   cd /home/username/Downloads (be sure "username" user has full "sudo" privileges 
 
-(1)   Download the scst-3.x-debian.zip file to (for example) /home/username/Downloads/scst-3.x-debian.zip
+           (typically the user created when Ubuntu was installed).
 
-(2)   Unzip the /home/username/Downloads/scst-3.x-debain
+(2)   Download the scst-3.x-debian.zip file to (for example) /home/username/Downloads/scst-3.x-debian.zip
 
-(2.5) sudo apt-get install subversion
+(3)   Unzip the /home/username/Downloads/scst-3.x-debain
 
-(3)   svn co https://svn.code.sf.net/p/scst/svn/trunk scst-latest
+(4)   sudo apt-get install subversion
 
-(3.5) mv the scst-3.x-debian directory to be subdirectory of scst-latest (e.g. mv scst-3.x-debian ./scst-latest/debian) i.e you are renaming scst-3.x-debian to debian and also moving it.
+(5)   svn co https://svn.code.sf.net/p/scst/svn/trunk scst-latest
 
-(4)   cd ~/Downloads/scst-latest/debian
+(6)   mv the scst-3.x-debian directory to be subdirectory of scst-latest 
 
-(5)   ./build-debian-dkms-scst.sh
+           (e.g. mv scst-3.x-debian ./scst-latest/debian) i.e you are renaming scst-3.x-debian to debian and also moving it.
 
-(6)   the script takes care of all the rest automatically
+(7)   cd ~/Downloads/scst-latest/debian
 
-(7)   reboot is suggested (but not mandatory) after install
+(8)   ./build-debian-dkms-scst.sh
+
+(9)   the script takes care of all the rest automatically
+
+(10)  reboot is suggested (but not mandatory) after install
 
 NOTE: The instructions which follow this updated from the original repository DO NOT APPLY to this updated fork.
-      Only use the instructions above for this fork.
+     
+       Only use the instructions above for this fork.
 
 ### End GLS 2017-07-23 Update ###
 

@@ -36,6 +36,8 @@ This fork should work on all systemd-enabled Debian-based linuxes (e.g. Linux Mi
 
 If you test it out, recommend using a dedicated test VM first.
 
+Building SCST with this doesn't require any advanced packaging knowledge, anyone with basic linux skills can use.
+
 # Roadmap
 
 An update to support pre-systemd Debian-based releases (e.g. Ubuntu 14.04) is coming very soon.
@@ -66,7 +68,7 @@ To install this to build dkms-enabled SCST on Debian-based systemd-enabled Linux
 
 (5)   svn co https://svn.code.sf.net/p/scst/svn/trunk scst-latest
 
-(6)   mv and rename the scst-3.x-debian directory to be subdirectory of scst-latest 
+(6)   mv and rename the scst-3.x-debian directory to be the debian subdirectory of scst-latest 
 
 (7)   cd ~/Downloads/scst-latest/debian
 

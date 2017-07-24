@@ -44,9 +44,7 @@ If you need to install dkms-enabled SCST on pre-systemd Debian-based release (e.
 
 # Orabuntu-LXC
 
-SCST is the ISCSI Linux SAN which is bundled with Orabuntu-LXC github "Any Oracle on Any Linux" project here:
-
-	https://github.com/gstanden/orabuntu-lxc
+SCST is the ISCSI Linux SAN which is bundled with my Orabuntu-LXC:  https://github.com/gstanden/orabuntu-lxc
 
 This work on SCST is driven by that project, but the SCST work is quite general and can be used for any purpose.
 

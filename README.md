@@ -3,7 +3,7 @@ Debian packaging for SCST
 
 ### Begin GLS 2017-07-23 Update ###
 
-Sincere thanks and recognition to the following people who established this github before I forked it:
+Sincere thanks and recognition to the following people who established this github before I forked it.
 
 # Credits
 

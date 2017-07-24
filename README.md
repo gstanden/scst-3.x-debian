@@ -3,6 +3,14 @@ Debian packaging for SCST
 
 ### Begin GLS 2017-07-23 Update ###
 
+Sincere thanks and recognition to the following people who established this github before I forked it:
+
+# Credits
+
+Martijn Gendelman credits Fajar A. Nugraha and Adrian Stachowski, so I do too.
+This github was forked from really great github by Martijn Grendelman
+Words are hardly adequate to express my thanks to these pioneering developers.
+
 This fork has been updated for SCST 3.3.0 (latest release)
 
 This fork has been updated for Ubuntu 17.04 (tested)

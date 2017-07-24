@@ -60,7 +60,7 @@ To install this to build dkms-enabled SCST on Debian-based systemd-enabled Linux
 
 (2)   Download this github (scst-3.x-debian.zip) /home/username/Downloads/scst-3.x-debian.zip
 
-(3)   Unzip the /home/username/Downloads/scst-3.x-debain
+(3)   Unzip the /home/username/Downloads/scst-3.x-debian
 
 (4)   sudo apt-get install subversion
 

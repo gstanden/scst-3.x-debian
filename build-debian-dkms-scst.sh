@@ -93,6 +93,7 @@ echo ''
 cd scst-"$ScstRelease"
 echo "about to do cp -a"
 sleep 2
+cp -p ./debian/scst-dkms/usr/src/scst-"$ScstRelease"/scst/include/* ./scst/include/.
 sudo cp -a . /usr/src/scst-"$ScstRelease"/.
 sleep 2
 sudo tar -xzf  /var/lib/dkms/scst/"$ScstRelease"/dsc/scst-dkms_"$ScstRelease".tar.gz -C /usr/src/scst-"$ScstRelease"
@@ -116,6 +117,7 @@ sudo mv /usr/src/iscsi-scst_"$ScstRelease"_amd64.deb 	        /usr/src/scst-deb-
 sudo mv /usr/src/scstadmin_"$ScstRelease"_amd64.deb 		/usr/src/scst-deb-$datext/.
 sudo mv /usr/src/scst-fileio-tgt_"$ScstRelease"_amd64.deb 	/usr/src/scst-deb-$datext/.
 
+cd /usr/src/scst-$ScstRelease
 echo "==========================================================="
 echo "Run cmd: sudo fakeroot debian/rules clean                  "
 echo "==========================================================="

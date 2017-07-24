@@ -32,7 +32,7 @@ This fork has been updated for Ubuntu 17.04 (tested), Ubuntu 16.04 (tested)* and
 
 *On Ubuntu 16.04 testing successful EXCEPT where many multiple old kernels were on the host so YMMV.
 
-This fork should work on all systemd-enabled Ubuntu releases (15.04+) (not tested yet)
+This fork should work on all systemd-enabled Ubuntu releases (15.04+) (15.04,16.04.17.04 all tested and work)
 
 This fork should work on all systemd-enabled Debian-based linuxes (e.g. Linux Mint if using systemd) (not tested yet)
 

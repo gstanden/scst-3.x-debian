@@ -4,6 +4,10 @@ Debian dkms-enabled packaging for SCST
 
 ### Begin GLS 2017-07-23 Update ###
 
+# SCST
+
+More information on the SCST project here:  http://scst.sourceforge.net/
+
 # DKMS
 
 DKMS means among other things that you will not have to recompile SCST everytime you upgrade kernel.
@@ -13,10 +17,6 @@ DKMS takes care of this for you automatically.
 More on DKMS here:  https://help.ubuntu.com/community/Kernel/DkmsDriverPackage
 
 Sincere thanks and recognition to the following people who established this github before I forked it.
-
-# SCST
-
-More information on the SCST project here:  http://scst.sourceforge.net/
 
 # Credits
 

@@ -31,8 +31,6 @@ To install this to build dkms-enabled SCST on Debian-based systemd-enabled Linux
 
 (6)   mv the scst-3.x-debian directory to be subdirectory of scst-latest 
 
-           (e.g. mv scst-3.x-debian ./scst-latest/debian) i.e you are renaming scst-3.x-debian to debian and also moving it.
-
 (7)   cd ~/Downloads/scst-latest/debian
 
 (8)   ./build-debian-dkms-scst.sh

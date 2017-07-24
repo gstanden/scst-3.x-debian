@@ -9,6 +9,34 @@ This fork has been updated for Ubuntu 17.04 (tested)
 
 This fork should work on all systemd-enabled Ubuntu releases (15.04+) (not tested yet)
 
+This fork should work on all systemd-enabled Debian-based linuxes in general (e.g. Linux Mint if using systemd) (not tested yet)
+
+If you test it out, recommend using a dedicated test VM first.
+
+To uninstall SCST after installing with this fork:
+
+	sudo apt-get purge scst-dkms
+	
+	sudo apt-get purge iscsi-scst
+	
+	reboot
+
+	After reboot check:
+
+	ps -ef | grep scst
+
+	lsmod | grep scst
+
+	edit /etc/modules and remove scst modules
+
+	sudo systemctl disable scst-san
+
+	cd /etc/systemd/system and remove scst-san.service
+
+	Removal should be complete.
+
+	Optionally, you are now ready to reinstall again using this fork following the exact same procedure (just run the build-debian-dkms-scst.sh script as before)
+
 To use this to build dkms-enabled SCST on Debian-based systemd-enabled Linuxes:
 
 (0.5) cd /home/username/Downloads (be sure "username" user has full "sudo" privileges - typically the user created when Ubuntu was installed (for desktop anyway).

@@ -42,7 +42,7 @@ An update to support pre-systemd Debian-based releases (e.g. Ubuntu 14.04) is co
 
 If you need to install dkms-enabled SCST on pre-systemd Debian-based release (e.g. Ubuntu 14.04) then:
 
-(1)  Please use the original github this was forked from:  https://github.com/tinuzz 
+(1)  Please use the original github this was forked from:  https://github.com/tinuzz/scst-3.x-debian
 
 (2)  Read: https://sites.google.com/site/nandydandyoracle/scst/scst-debian-dkms-package-build-from-source-ubuntu-14-04
 

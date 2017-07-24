@@ -30,9 +30,9 @@ This fork has been updated for SCST 3.3.0 (latest release)
 
 This fork has been updated for Ubuntu 17.04 (tested), Ubuntu 16.04 (tested)* and Ubuntu 15.04 (tested)
 
-*tested means scst-dkms modules built/installed, and scst survived kernel upgrades with no loss of functionality.
+* tested means scst-dkms modules built/installed, and scst survived kernel upgrades with no loss of functionality.
 
-*On Ubuntu 16.04 testing successful on kernel 4.4.0-83-generic but failed on kernel 4.4.0-87-generic
+* On Ubuntu 16.04 testing successful on kernel 4.4.0-83-generic but failed on kernel 4.4.0-87-generic
 
 This fork should work on all systemd-enabled Ubuntu releases (15.04+) (15.04,16.04.17.04 all tested and work)
 

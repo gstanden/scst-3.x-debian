@@ -23,6 +23,26 @@ This fork should work on all systemd-enabled Debian-based linuxes (e.g. Linux Mi
 
 If you test it out, recommend using a dedicated test VM first.
 
+# Roadmap
+
+An update to support pre-systemd Debian-based releases (e.g. Ubuntu 14.04) is coming very soon.
+
+If you need to install dkms-enabled SCST on pre-systemd Debian-based release (e.g. Ubuntu 14.04) then:
+
+(1)  Please use the original github this was forked from (tinuzz/scst-3.x-debian); and
+
+(2)  Use my blog detailed guide here:  
+
+	https://sites.google.com/site/nandydandyoracle/scst/scst-debian-dkms-package-build-from-source-ubuntu-14-04
+
+# Orabuntu-LXC
+
+SCST is the ISCSI Linux SAN which is bundled with Orabuntu-LXC github "Any Oracle on Any Linux" project here:
+
+	https://github.com/gstanden/orabuntu-lxc
+
+This work on SCST is driven by that project, but the SCST work is quite general and can be used for any purpose.
+
 #Install
 
 To install this to build dkms-enabled SCST on Debian-based systemd-enabled Linuxes:

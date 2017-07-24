@@ -1,5 +1,14 @@
 # scst-3.x-debian
-Debian packaging for SCST
+
+Debian dkms-enabled packaging for SCST
+
+# DKMS
+
+DKMS means among other things that you will not have to recompile SCST everytime you upgrade kernel.
+
+DKMS takes care of this for you automatically.
+
+More on DKMS here:  https://help.ubuntu.com/community/Kernel/DkmsDriverPackage
 
 ### Begin GLS 2017-07-23 Update ###
 

@@ -13,33 +13,7 @@ This fork should work on all systemd-enabled Debian-based linuxes (e.g. Linux Mi
 
 If you test it out, recommend using a dedicated test VM first.
 
-To uninstall SCST after installing with this fork:
-
-	sudo apt-get purge scst-dkms
-	
-	sudo apt-get purge iscsi-scst
-	
-	reboot
-
-	After reboot check:
-
-	ps -ef | grep scst
-
-	lsmod | grep scst
-
-	edit /etc/modules and remove scst modules
-
-	sudo systemctl disable scst-san
-
-	cd /etc/systemd/system and remove scst-san.service
-
-	Removal should be complete.
-
-	Optionally, you are now ready to reinstall again using this fork following the exact same procedure:
-
-		(just run the build-debian-dkms-scst.sh script as before)
-
-To use this to build dkms-enabled SCST on Debian-based systemd-enabled Linuxes:
+To install this to build dkms-enabled SCST on Debian-based systemd-enabled Linuxes:
 
 (1)   cd /home/username/Downloads (be sure "username" user has full "sudo" privileges 
 
@@ -68,6 +42,33 @@ To use this to build dkms-enabled SCST on Debian-based systemd-enabled Linuxes:
 NOTE: The instructions which follow this updated from the original repository DO NOT APPLY to this updated fork.
      
        Only use the instructions above for this fork.
+
+
+To uninstall SCST after installing with this fork:
+
+	sudo apt-get purge scst-dkms
+	
+	sudo apt-get purge iscsi-scst
+	
+	reboot
+
+	After reboot check:
+
+	ps -ef | grep scst
+
+	lsmod | grep scst
+
+	edit /etc/modules and remove scst modules
+
+	sudo systemctl disable scst-san
+
+	cd /etc/systemd/system and remove scst-san.service
+
+	Removal should be complete.
+
+	Optionally, you are now ready to reinstall again using this fork following the exact same procedure:
+
+		(just run the build-debian-dkms-scst.sh script as before)
 
 ### End GLS 2017-07-23 Update ###
 

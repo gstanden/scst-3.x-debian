@@ -1,9 +1,11 @@
 Source: scst
 Section: net
 Priority: extra
-Maintainer: Martijn Grendelman <m@rtijn.net)
+Maintainer: Gilbert Standen <gilstanden@hotmail.com>
 Build-Depends: debhelper (>= 6.0.7),
  quilt,
+ open-iscsi,
+ multipath-tools,
  dpkg-dev (>= 1.13.19)
 Standards-Version: 3.8.3
 Homepage: http://scst.sourceforge.net

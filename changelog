@@ -1,3 +1,9 @@
+scst (3.3.0) zesty; urgency=medium
+
+  * Modifications for systemd-enabled Ubuntu distros (15.04+)
+
+ -- Gilbert Standen <gilstanden@hotmail.com>  Sat, 22 Jul 2017 15:36:41 -0500
+
 scst (3.1.0-0isaac2) jessie; urgency=high
 
   * New upstream release, svn revision 3.1.x/@6796

@@ -1,4 +1,3 @@
-etc/scst.conf
 etc/init.d/scst
 usr/sbin/scstadmin
 usr/share/perl/*/SCST/SCST.pm

@@ -3,7 +3,7 @@
 export DH_VERBOSE=1
 
 # Need to update this manually for now
-DKMSMODVER=3.1.0.1
+DKMSMODVER=3.3.0
 
 SHELL=/bin/bash
 TMPROOT=$(CURDIR)/debian/tmp
@@ -68,6 +68,9 @@ install: build
 
 	# copy example scst.conf
 	install -vD -m 644 debian/scst.conf $(DESTDIR)/etc/scst.conf
+
+	# copy scst-files.tar SAN builder archive
+	install -vD -m 644 debian/scst-files.tar $(DESTDIR)/etc/scst-files.tar
 	
 	# process scst-dkms manually
 	for f in debian/dkms.conf debian/scst-dkms.postinst debian/scst-dkms.prerm;do \

@@ -1,0 +1,4 @@
+iscsi-scst_3.3.0_amd64.deb net extra
+scst-dkms_3.3.0_amd64.deb net extra
+scst-fileio-tgt_3.3.0_amd64.deb net extra
+scstadmin_3.3.0_amd64.deb net extra

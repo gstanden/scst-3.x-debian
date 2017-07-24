@@ -1,0 +1,13 @@
+#!/bin/bash
+# PackageList1='quilt dh-make dh-systemd build-essential devscripts lintian perl gawk dkms'
+PackageList1='quilt rpm'
+for i in $PackageList1
+do
+	function PackageExists() {
+		return dpkg -l "$i" &> /dev/null
+	}
+	if Package_exists $i ; then
+		echo $i
+		sudo apt-get install $i
+	fi
+done

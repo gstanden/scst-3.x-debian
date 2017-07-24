@@ -38,9 +38,9 @@ An update to support pre-systemd Debian-based releases (e.g. Ubuntu 14.04) is co
 
 If you need to install dkms-enabled SCST on pre-systemd Debian-based release (e.g. Ubuntu 14.04) then:
 
-(1)  Please use the original github this was forked from (tinuzz/scst-3.x-debian); and
+(1)  Please use the original github this was forked from:  https://github.com/tinuzz 
 
-(2)  Use my blog detailed guide here:  
+(2)  Use my blog detailed guide here for detailed steps on using https://github.com/tinuzz   
 
 	https://sites.google.com/site/nandydandyoracle/scst/scst-debian-dkms-package-build-from-source-ubuntu-14-04
 
@@ -52,7 +52,7 @@ SCST is the ISCSI Linux SAN which is bundled with Orabuntu-LXC github "Any Oracl
 
 This work on SCST is driven by that project, but the SCST work is quite general and can be used for any purpose.
 
-#Install
+# Install SCST
 
 To install this to build dkms-enabled SCST on Debian-based systemd-enabled Linuxes:
 
@@ -81,6 +81,18 @@ To install this to build dkms-enabled SCST on Debian-based systemd-enabled Linux
 NOTE: The instructions which follow this updated from the original repository DO NOT APPLY to this updated fork.
      
        Only use the instructions above for this fork.
+
+# Configure SCST SAN
+
+Included with this github is a tar archive scst-files.tar
+
+Use it optionally to fully-automate SCST file-backed SAN creation and configuration.
+
+The scripts create target, create LUNs, configure multipath, and configure UDEV rules, all fully automated.
+
+To use it untar the scst-files.tar, cd scst-files, and launch ./create-scst.sh and scripts do the rest.
+
+The scripts are easily readable in bash, so you can customize them to meet your needs.
 
 # Uninstall
 

@@ -4,6 +4,12 @@ Debian dkms-enabled packaging for SCST
 
 ### Begin GLS 2017-07-23 Update ###
 
+NOTE:  There are still some issues with this.  It MAY NOT WORK for you.
+
+I'm working as fast as I can to resolve the issues.  I apologize for the delays.
+
+Thanks for your patience.
+
 # SCST
 
 More information on the SCST project here:  http://scst.sourceforge.net/

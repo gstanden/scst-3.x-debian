@@ -78,7 +78,7 @@ This work on SCST is driven by that project, but the SCST work is quite general 
 
 # Install SCST
 
-To build and install latest SCST source code as DKMS modules to Ubuntu 17.04:
+To use this github archive to build and install latest SCST source code as DKMS modules to Ubuntu 17.04:
 
 Go to this link here: 
 

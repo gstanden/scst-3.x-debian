@@ -1,7 +1,0 @@
-37431a6bb86728fc4be40ec41bf0980a  usr/sbin/iscsi-scst-adm
-d61f7ca26d578971d4f15d918f2fb2b9  usr/sbin/iscsi-scstd
-42be56b9636e95646c48821450a11f0c  usr/share/doc/iscsi-scst/changelog.Debian.gz
-220689c6bb66a113e366b04edae79d7f  usr/share/doc/iscsi-scst/changelog.gz
-2a7560e82d0cd1fb3c958f0cf6357287  usr/share/man/man5/iscsi-scstd.conf.5.gz
-3728175cd116deac268ea0ac98de8644  usr/share/man/man8/iscsi-scst-adm.8.gz
-b3403141d7a9e99728aad883925ac48f  usr/share/man/man8/iscsi-scstd.8.gz

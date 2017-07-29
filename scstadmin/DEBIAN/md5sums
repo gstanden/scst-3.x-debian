@@ -1,7 +1,0 @@
-ea4acd6fd59221b94845479decc3be1b  usr/sbin/scstadmin
-42be56b9636e95646c48821450a11f0c  usr/share/doc/scstadmin/changelog.Debian.gz
-220689c6bb66a113e366b04edae79d7f  usr/share/doc/scstadmin/changelog.gz
-2cc312b378440d3e09ac9a346df2a3d5  usr/share/man/man1/scstadmin.1.gz
-a461936de03c305d7f3a83fa9c6129e4  usr/share/man/man5/scst.5.gz
-659b8d167d52a1caa423351b2966ab16  usr/share/man/man5/scst.conf.5.gz
-99071af13e2cdca81766eb15992fc399  usr/share/perl/5.24.1/SCST/SCST.pm

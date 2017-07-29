@@ -122,12 +122,6 @@ To uninstall SCST after installing with this fork:
 
 	lsmod | grep scst
 
-	edit /etc/modules and remove scst modules
-
-	sudo systemctl disable scst-san
-
-	cd /etc/systemd/system and remove scst-san.service
-
 	Removal should be complete.
 
 	Optionally, you are now ready to reinstall again using this fork following the exact same procedure:

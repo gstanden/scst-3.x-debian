@@ -46,13 +46,11 @@ Words are hardly adequate to express my thanks to these pioneering developers.
 
 This fork has been updated for SCST 3.3.0 (latest release)
 
-This fork has been updated for Ubuntu 17.04 (tested), Ubuntu 16.04 (tested)* and Ubuntu 15.04 (tested)
+This fork has been updated for Ubuntu 17.04 (tested)
 
 * tested means scst-dkms modules built/installed, and scst survived kernel upgrades with no loss of functionality.
 
-* On Ubuntu 16.04 testing successful on kernel 4.4.0-83-generic but failed on kernel 4.4.0-87-generic
-
-This fork should work on all systemd-enabled Ubuntu releases (15.04+) (15.04,16.04.17.04 all tested and work)
+This fork should work on all systemd-enabled Ubuntu releases (15.04+) (15.04,16.04 should work but not yet tested fully)
 
 This fork should work on all systemd-enabled Debian-based linuxes (e.g. Linux Mint if using systemd) (not tested yet)
 
@@ -78,7 +76,17 @@ This work on SCST is driven by that project, but the SCST work is quite general 
 
 # Install SCST
 
-To install this to build dkms-enabled SCST on Debian-based systemd-enabled Linuxes refer to the wiki page of this github.
+To build and install latest SCST source code as DKMS modules to Ubuntu 17.04:
+
+Go to this link here: 
+
+https://sites.google.com/site/nandydandyoracle/scst/scst-debian-dkms-package-build-from-source-ubuntu-17-04
+
+and download install.sh.v2 to machine on which want to install SCST DKMS modules.
+
+Read at that same link for instructions (basically just make executable and run from "~/Downloads" directory
+
+or optionally can edit the "cd ~/Downloads" line and set a different staging area.
 
 # Configure SCST SAN
 

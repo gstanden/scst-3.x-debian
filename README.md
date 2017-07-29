@@ -20,6 +20,20 @@ Thanks for your patience.
 
 More information on the SCST project here:  http://scst.sourceforge.net/
 
+# Install SCST using this Git
+
+To use this github archive to build and install latest SCST source code as DKMS modules to Ubuntu 17.04:
+
+Go to this link here: 
+
+https://sites.google.com/site/nandydandyoracle/scst/scst-debian-dkms-package-build-from-source-ubuntu-17-04
+
+and download install.sh.v2 to machine on which want to install SCST DKMS modules.
+
+Read at that same link for instructions (basically just make executable and run from "~/Downloads" dir)
+
+or optionally can edit the "cd ~/Downloads" line and set a different staging area.
+
 # DKMS
 
 DKMS means among other things that you will not have to recompile SCST everytime you upgrade kernel.
@@ -77,20 +91,6 @@ If you need to install dkms-enabled SCST on pre-systemd Debian-based release (e.
 SCST is the ISCSI Linux SAN which is bundled with my Orabuntu-LXC:  https://github.com/gstanden/orabuntu-lxc
 
 This work on SCST is driven by that project, but the SCST work is quite general and can be used for any purpose.
-
-# Install SCST
-
-To use this github archive to build and install latest SCST source code as DKMS modules to Ubuntu 17.04:
-
-Go to this link here: 
-
-https://sites.google.com/site/nandydandyoracle/scst/scst-debian-dkms-package-build-from-source-ubuntu-17-04
-
-and download install.sh.v2 to machine on which want to install SCST DKMS modules.
-
-Read at that same link for instructions (basically just make executable and run from "~/Downloads" dir)
-
-or optionally can edit the "cd ~/Downloads" line and set a different staging area.
 
 # Configure SCST SAN
 

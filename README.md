@@ -4,7 +4,7 @@ Debian dkms-enabled packaging for SCST
 
 ### Begin GLS 2017-07-23 Update ###
 
-# GLS 2017-07-29 Update       #
+GLS 2017-07-29 Update
 
 NOTE:  The issues are RESOLVED and this now SHOULD WORK (yay!)
 

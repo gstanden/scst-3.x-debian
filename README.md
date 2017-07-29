@@ -66,27 +66,7 @@ This work on SCST is driven by that project, but the SCST work is quite general 
 
 # Install SCST
 
-To install this to build dkms-enabled SCST on Debian-based systemd-enabled Linuxes:
-
-(1)   cd /home/username/Downloads (be sure "username" user has full "sudo" privileges) e.g. install user 
-
-(2)   Download this github (scst-3.x-debian.zip) /home/username/Downloads/scst-3.x-debian.zip
-
-(3)   Unzip the /home/username/Downloads/scst-3.x-debian
-
-(4)   sudo apt-get install subversion
-
-(5)   svn co https://svn.code.sf.net/p/scst/svn/trunk scst-latest
-
-(6)   mv and rename the scst-3.x-debian directory to be the debian subdirectory of scst-latest 
-
-(7)   cd ~/Downloads/scst-latest/debian
-
-(8)   ./build-debian-dkms-scst.sh
-
-(9)   the script takes care of all the rest automatically
-
-(10)  reboot is suggested (but not mandatory) after install
+To install this to build dkms-enabled SCST on Debian-based systemd-enabled Linuxes refer to the wiki page of this github.
 
 # Configure SCST SAN
 

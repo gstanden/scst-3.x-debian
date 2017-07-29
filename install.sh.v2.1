@@ -1,7 +1,6 @@
 #!/bin/bash
 # Builds and installs SCST DKMS modules
 # Gilbert Standen 2017-07-29
-clear
 sudo apt-get -y install subversion dkms quilt debhelper
 cd ~/Downloads
 svn checkout svn://svn.code.sf.net/p/scst/svn/trunk scst-latest
@@ -153,4 +152,4 @@ echo ''
 echo "The scst-files.tar will build the target, create LUNs, create the multipath.conf, and create required UDEV rules, all AUTOMATICALLY."
 echo "The default SAN is customized for Oracle RAC."
 echo "Edit create-scst-oracle.sh file to customize the SAN as required for other non-Oracle datbases and requirement as needed."
-echo ''
+

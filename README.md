@@ -30,7 +30,7 @@ https://sites.google.com/site/nandydandyoracle/scst/scst-debian-dkms-package-bui
 
 or if you prefer direct wget:
 
-wget https://sites.google.com/site/nandydandyoracle/scst/scst-debian-dkms-package-build-from-source-ubuntu-17-04/install.sh.v2?attredirects=0&d=1
+wget https://sites.google.com/site/nandydandyoracle/scst/scst-debian-dkms-package-build-from-source-ubuntu-17-04/install.sh.v2
 
 and download install.sh.v2 to machine on which want to install SCST DKMS modules.
 

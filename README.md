@@ -86,7 +86,7 @@ https://sites.google.com/site/nandydandyoracle/scst/scst-debian-dkms-package-bui
 
 and download install.sh.v2 to machine on which want to install SCST DKMS modules.
 
-Read at that same link for instructions (basically just make executable and run from "~/Downloads" directory
+Read at that same link for instructions (basically just make executable and run from "~/Downloads" dir)
 
 or optionally can edit the "cd ~/Downloads" line and set a different staging area.
 

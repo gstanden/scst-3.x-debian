@@ -108,11 +108,11 @@ The scripts are easily readable in bash, so you can customize them to meet your 
 
 To uninstall SCST after installing with this fork:
 
-	sudo apt-get purge scst-dkms
+	Run the create-scst-uninstall.sh file in the scst-files.tar archive
 	
-	sudo apt-get purge iscsi-scst
-	
-	reboot
+	A reboot after running create-scst-uninstall.sh is recommended but not mandatory
+
+	If you don't reboot, be sure to kill orphan SCST processes and unload SCST modules
 
 	After reboot check:
 

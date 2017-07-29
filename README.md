@@ -50,7 +50,9 @@ This fork should work with any SCST version although it has only been tested so 
 
 This fork has been updated for systemd-enabled Debian-based Linuxes (e.g. Ubuntu 17.04 which has been tested).
 
-* tested means scst-dkms modules built/installed, and DKMS rebuilt SCST on kernel upgrades with uninterrupted SCST service.
+* tested means scst-dkms modules built/installed successfully
+
+* tested means DKMS rebuilt SCST on kernel upgrades with uninterrupted SCST service across reboots
 
 This fork should work on all systemd-enabled Ubuntu releases 15.04+ (15.04,15.10,16.04,16.10) (not tested yet)
 

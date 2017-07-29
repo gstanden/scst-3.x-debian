@@ -6,7 +6,9 @@ Debian dkms-enabled packaging for SCST
 
 NOTE:  The issues are RESOLVED and this now SHOULD WORK 
 
-for creating SCST DKMS Packages on Debian-based systemd-enabled Linuxes.
+for creating SCST DKMS Packages on Debian-based systemd-enabled Linuxes
+
+such as Ubuntu 15.04+, Linux Mint, etc.
 
 I apologize for the delays getting the issues resolved.
 

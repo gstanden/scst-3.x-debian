@@ -22,7 +22,11 @@ More information on the SCST project here:  http://scst.sourceforge.net/
 
 DKMS means among other things that you will not have to recompile SCST everytime you upgrade kernel.
 
-DKMS takes care of this for you automatically.
+DKMS takes care of this for you automatically. The following reference was my main relevant reference.
+
+This work could not have been accomplished without the below reference and
+
+the original scst-3.x-debian github by Martijn Grendelman.
 
 More on DKMS here:  https://help.ubuntu.com/community/Kernel/DkmsDriverPackage
 

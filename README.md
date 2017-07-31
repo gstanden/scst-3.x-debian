@@ -10,8 +10,6 @@ NOTE:  The issues are RESOLVED and this now SHOULD WORK (yay!)
 
 for creating SCST DKMS Packages on Debian-based systemd-enabled Linuxes
 
-such as Ubuntu 15.04+, Linux Mint, etc.
-
 I apologize for the delays getting the issues resolved.
 
 Thanks for your patience.
@@ -70,8 +68,6 @@ This fork has been updated for systemd-enabled Debian-based Linuxes (e.g. Ubuntu
 
 * tested means scst-dkms modules built/installed successfully
 
-* tested means DKMS rebuilt SCST on kernel upgrades with uninterrupted SCST service across reboots
-
 Releases and Kernels Tested and Known to Work:
 
 * Ubuntu	14.04	Trusty Tahr	3.13.0-125-generic 
@@ -83,8 +79,8 @@ Releases and Kernels Tested and Known to Work:
 
 Releases and Kernels Tested that DO NOT WORK:
 
-* Ubuntu 16.04	Xenial Xerus	4.4.0-87-generic
-* Ubuntu 16.04	Xenial Xerus	4.4.0-88-generic
+* Ubuntu 	16.04	Xenial Xerus	4.4.0-87-generic
+* Ubuntu 	16.04	Xenial Xerus	4.4.0-88-generic
 
 (The above tests were done on VirtualBox VM's which had all available updates applied to a vanilla install)
 

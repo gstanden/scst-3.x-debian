@@ -52,7 +52,7 @@ script which will do EVERYTHING required to configure SCST
 
 The create-scst.sh and associated scripts which are called does all of the following:
 
-* Installs SCST (for most kernels install DKMS-enabled SCST modules which auto-rebuild across kernel updated)
+* Installs SCST (for most kernels install DKMS-enabled SCST modules which auto-rebuild across kernel updates)
 * Creates an SCST target, group and LUNs (optional: edit the create-scst-oracle.sh script to suit specific requirements)
 * Creates an appropriate /etc/multipath.conf file for the hardware and system running 
 * Backs up the existing /etc/multipath.conf (if any) and installs the new /etc/multipath.conf

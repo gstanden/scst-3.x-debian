@@ -46,7 +46,7 @@ and then run the
 
 > ./create-scst.sh
 
-script which will do EVERYTHING required to configure SCST
+script which will do EVERYTHING required to configure SCST and calls this scst-3.x-debian github.
 
 (so far tested on Desktop version only, but should work on server too - testing coming).
 

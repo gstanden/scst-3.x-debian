@@ -30,7 +30,7 @@ and download orabuntu-lxc zip archive
 
 or if you prefer direct wget:
 
-wget https://github.com/gstanden/orabuntu-lxc/archive/master.zip
+> wget https://github.com/gstanden/orabuntu-lxc/archive/master.zip
 
 and then unzip the archive and navigate to:
 
@@ -40,11 +40,15 @@ where you will find the scst-files.tar archive.
 
 Untar this archive as shown below:
 
-tar -xvf scst-files.tar
+> tar -xvf scst-files.tar
 
-and then run the ./create-scst.sh script which will take of EVERYTHING required to configure SCST
+and then run the 
 
-on your Ubuntu host (so far tested on Desktop version only, but should work on server too - testing coming).
+> ./create-scst.sh
+
+ script which will take of EVERYTHING required to configure SCST
+
+(so far tested on Desktop version only, but should work on server too - testing coming).
 
 The create-scst.sh and associated scripts which are called does all of the following:
 
@@ -53,10 +57,6 @@ The create-scst.sh and associated scripts which are called does all of the follo
 * Creates an appropriate /etc/multipath.conf file for the hardware and system running 
 * Backs up the existing /etc/multipath.conf (if any) and installs the new /etc/multipath.conf
 * Logs in via iscsi-initiator and configures on-boot properties of SCST SAN
-
-Read at that same link for instructions (basically just make executable and run from "~/Downloads" dir)
-
-or optionally can edit the "cd ~/Downloads" line and set a different staging area.
 
 # DKMS
 

@@ -116,8 +116,6 @@ Ubuntu Desktop 64-bit:
 * Note:	Install DKMS on an early 4.4.x-x-generic 16.04 kernel eg. 4.4.0-31-generic will work but -
 * Note:	SCST DKMS breaks on update to 16.04 4.4.0-87,88,89-generic so use HWE 4.10 HWE kernel on 16.04 
 
-
-
 (The above tests were done on VirtualBox VM's which had all available updates applied to a vanilla install)
 
 This fork should work on all systemd-enabled Debian-based linuxes (e.g. Linux Mint if using systemd) (not tested yet)
@@ -146,7 +144,7 @@ This work on SCST is driven by that project, but the SCST work is quite general 
 
 Edit create-scst.sh before running and modify parameters on create-scst-oracle.sh to suit your requirements.
 
-If you do not edit create-scst.sh it will run fine with defaults set to Oracle-RDBMS-centric values.
+If you do not edit create-scst-oracle.sh it will run fine with defaults set to Oracle-RDBMS-centric values.
 
 The scripts are easily readable in bash, so you can customize them to meet your needs.
 

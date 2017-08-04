@@ -20,7 +20,7 @@ More information on the SCST project here:  http://scst.sourceforge.net/
 
 # Install SCST using this Git
 
-To use this github archive to build and install latest SCST source code as DKMS modules to Ubuntu 14.04+
+To use this github archive to build and install latest SCST source code as DKMS modules to Ubuntu 15.04+ (15.04-17.04+
 
 Go to this link here: 
 
@@ -46,7 +46,7 @@ and then run the
 
 > ./create-scst.sh
 
- script which will take of EVERYTHING required to configure SCST
+script which will do EVERYTHING required to configure SCST
 
 (so far tested on Desktop version only, but should work on server too - testing coming).
 
@@ -104,7 +104,7 @@ Releases and Kernels Tested that DO NOT WORK with DKMS:
 * Ubuntu 	16.04	Xenial Xerus	4.4.*-*-generic 
 
 Note:  Script will do a non-DKMS SCST install if kernel 4.4.* MUST be used.  
-Note:  Strongly recommend accepting the automatic update to the 16.04.3 HWE kernel so that DKMS can be used.
+Note:  Strongly recommend accepting the automatic update to the 16.04.3 HWE kernel so that SCST DKMS can be used.
 
 (The above tests were done on VirtualBox VM's which had all available updates applied to a vanilla install)
 
@@ -132,15 +132,9 @@ This work on SCST is driven by that project, but the SCST work is quite general 
 
 # Configure SCST SAN
 
-Included with this github is a tar archive scst-files.tar
-
-Use it optionally to fully-automate SCST file-backed SAN creation and configuration.
-
-The scripts create target, create LUNs, configure multipath, and configure UDEV rules, all fully automated.
-
 Edit create-scst.sh before running and modify parameters on create-scst-oracle.sh to suit your requirements.
 
-To use it untar the scst-files.tar, cd scst-files, and launch ./create-scst.sh and scripts do the rest.
+If you do not edit create-scst.sh it will run fine with defaults set to Oracle-RDBMS-centric values.
 
 The scripts are easily readable in bash, so you can customize them to meet your needs.
 
@@ -149,7 +143,7 @@ The scripts are easily readable in bash, so you can customize them to meet your 
 To uninstall SCST after installing with this fork:
 
 	Run the create-scst-uninstall.sh file in the scst-files.tar archive
-	
+
 	A reboot after running create-scst-uninstall.sh is recommended but not mandatory
 
 	If you don't reboot, be sure to kill orphan SCST processes and unload SCST modules

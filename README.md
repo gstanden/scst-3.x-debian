@@ -20,17 +20,37 @@ More information on the SCST project here:  http://scst.sourceforge.net/
 
 # Install SCST using this Git
 
-To use this github archive to build and install latest SCST source code as DKMS modules to Ubuntu 17.04:
+To use this github archive to build and install latest SCST source code as DKMS modules to Ubuntu 14.04+
 
 Go to this link here: 
 
-https://sites.google.com/site/nandydandyoracle/scst/scst-debian-dkms-package-build-from-source-ubuntu-17-04
+https://github.com/gstanden/orabuntu-lxc
+
+and download orabuntu-lxc zip archive
 
 or if you prefer direct wget:
 
-wget https://sites.google.com/site/nandydandyoracle/scst/scst-debian-dkms-package-build-from-source-ubuntu-17-04/install.sh.v2
+wget https://github.com/gstanden/orabuntu-lxc/archive/master.zip
 
-and download install.sh.v2 to machine on which want to install SCST DKMS modules.
+and then unzip the archive and navigate to orabuntu-lxc-master/orabuntu/archives
+
+where you will find the scst-files.tar archive.
+
+Untar this archive as shown below:
+
+tar -xvf scst-files.tar
+
+and then run the ./create-scst.sh script which will take of EVERYTHING required to configure SCST
+
+on your Ubuntu host (so far tested on Desktop version only, but should work on server too - testing coming).
+
+The create-scst.sh and associated scripts which are called does all of the following:
+
+* Installs SCST (for most kernels install DKMS-enabled SCST modules which auto-rebuild across kernel updated)
+* Creates an SCST target, group and LUNs (optional: edit the create-scst-oracle.sh script to suit specific requirements)
+* Creates an appropriate /etc/multipath.conf file for the hardware and system running 
+* Backs up the existing /etc/multipath.conf (if any) and installs the new /etc/multipath.conf
+* Logs in via iscsi-initiator and configures on-boot properties of SCST SAN
 
 Read at that same link for instructions (basically just make executable and run from "~/Downloads" dir)
 
@@ -68,19 +88,21 @@ This fork has been updated for systemd-enabled Debian-based Linuxes (e.g. Ubuntu
 
 * tested means scst-dkms modules built/installed successfully
 
-Releases and Kernels Tested and Known to Work:
+Releases and Kernels Tested and Known to Work with DKMS:
 
 * Ubuntu	14.04	Trusty Tahr	3.13.0-125-generic 
 * Ubuntu 	15.04	Vivid Vervet	3.19.0-84-generic
 * Ubuntu	15.10	Wily Werewolf	4.2.0-42-generic
-* Ubuntu 	16.04	Xenial Xerus	4.4.0-84-generic*
+* Ubuntu 	16.04	Xenial Xerus	4.10.0-30-generic (HWE kernel)
 * Ubuntu	16.10	Yakkety Yak	4.8.0-59-generic
 * Ubuntu	17.04	Zesty Zapus	4.10.0-28-generic
 
-Releases and Kernels Tested that DO NOT WORK:
+Releases and Kernels Tested that DO NOT WORK with DKMS:
 
-* Ubuntu 	16.04	Xenial Xerus	4.4.0-87-generic
-* Ubuntu 	16.04	Xenial Xerus	4.4.0-88-generic
+* Ubuntu 	16.04	Xenial Xerus	4.4.*-*-generic 
+
+Note:  Script will do a non-DKMS SCST install if kernel 4.4.* MUST be used.  
+Note:  Strongly recommend accepting the automatic update to the 16.04.3 HWE kernel so that DKMS can be used.
 
 (The above tests were done on VirtualBox VM's which had all available updates applied to a vanilla install)
 

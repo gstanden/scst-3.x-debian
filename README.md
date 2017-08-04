@@ -32,7 +32,9 @@ or if you prefer direct wget:
 
 wget https://github.com/gstanden/orabuntu-lxc/archive/master.zip
 
-and then unzip the archive and navigate to orabuntu-lxc-master/orabuntu/archives
+and then unzip the archive and navigate to:
+
+> cd orabuntu-lxc-master/orabuntu/archives
 
 where you will find the scst-files.tar archive.
 

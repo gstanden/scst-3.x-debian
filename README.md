@@ -20,7 +20,7 @@ More information on the SCST project here:  http://scst.sourceforge.net/
 
 # Install SCST using this Git
 
-To use this github archive to build and install latest SCST source code as DKMS modules to Ubuntu 15.04+ (15.04-17.04+
+To use this github archive to build and install latest SCST source code as DKMS modules to Ubuntu 15.04+ (15.04-17.04+)
 
 Go to this link here: 
 

@@ -113,7 +113,7 @@ Ubuntu Desktop 64-bit:
 
 Note:  Script will do a non-DKMS SCST install if kernel 4.4.* MUST be used.  
 Note:  Strongly recommend accepting the automatic update to the 16.04.3 HWE kernel so that SCST DKMS can be used.
-
+Note:  If you install DKMS on a 4.4.x-x-generic kernel such as 4.4.0-31-generic it will work but it will break on update to 4.4.0-87,88,89-generic kernels
 (The above tests were done on VirtualBox VM's which had all available updates applied to a vanilla install)
 
 This fork should work on all systemd-enabled Debian-based linuxes (e.g. Linux Mint if using systemd) (not tested yet)

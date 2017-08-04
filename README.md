@@ -116,6 +116,8 @@ Ubuntu Desktop 64-bit:
 * Note:	Install DKMS on an early 4.4.x-x-generic 16.04 kernel eg. 4.4.0-31-generic will work but -
 * Note:	SCST DKMS breaks on update to 16.04 4.4.0-87,88,89-generic so use HWE 4.10 HWE kernel on 16.04 
 
+
+
 (The above tests were done on VirtualBox VM's which had all available updates applied to a vanilla install)
 
 This fork should work on all systemd-enabled Debian-based linuxes (e.g. Linux Mint if using systemd) (not tested yet)

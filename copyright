@@ -13,7 +13,7 @@ Files: debian/*
 Copyright: 2015-2017 Martijn Grendelman <m@rtijn.net>
 License: GPL-2.0+
 
-Files: debian/scst-files.tar debian/scst-files.tar debian/scstadmin.install debian/control debian/rules debian/scstadmin.postinst
+Files: debian/scst-files.tar debian/scstadmin.install debian/control debian/rules debian/scstadmin.postinst
 Copyright: 2015-2017 Martijn Grendelman <m@rtijn.net>
 Copyright: 2017 Gilbert Standen <gilstanden@hotmail.com>
 License: GPL-2.0+

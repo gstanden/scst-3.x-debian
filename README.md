@@ -109,7 +109,7 @@ Releases and Kernels Tested that DO NOT WORK with DKMS:
 
 Ubuntu Desktop 64-bit:
 
-* Ubuntu 	16.04	Xenial Xerus	4.4.*-*-generic 
+* Ubuntu 	16.04	Xenial Xerus	4.4.x-x-generic 
 
 Note:  Script will do a non-DKMS SCST install if kernel 4.4.* MUST be used.  
 Note:  Strongly recommend accepting the automatic update to the 16.04.3 HWE kernel so that SCST DKMS can be used.

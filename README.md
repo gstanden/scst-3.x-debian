@@ -92,6 +92,8 @@ This fork has been updated for systemd-enabled Debian-based Linuxes (e.g. Ubuntu
 
 Releases and Kernels Tested and Known to Work with DKMS:
 
+Ubuntu Desktop 64-bit:
+ 
 * Ubuntu	14.04	Trusty Tahr	3.13.0-125-generic 
 * Ubuntu 	15.04	Vivid Vervet	3.19.0-84-generic
 * Ubuntu	15.10	Wily Werewolf	4.2.0-42-generic
@@ -99,7 +101,13 @@ Releases and Kernels Tested and Known to Work with DKMS:
 * Ubuntu	16.10	Yakkety Yak	4.8.0-59-generic
 * Ubuntu	17.04	Zesty Zapus	4.10.0-28-generic
 
+Ubuntu Server:
+
+* (not yet tested - test results coming soon)
+
 Releases and Kernels Tested that DO NOT WORK with DKMS:
+
+Ubuntu Desktop 64-bit:
 
 * Ubuntu 	16.04	Xenial Xerus	4.4.*-*-generic 
 

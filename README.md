@@ -44,7 +44,7 @@ where you will find the scst-files.tar archive.
 
 Untar this archive as shown below:
 
-> tar -xvPf scst-files.tar
+> sudo tar -xvPf scst-files.tar
 
 and then 
 

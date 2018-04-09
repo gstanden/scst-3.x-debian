@@ -50,7 +50,9 @@ and then
 
 > cd /opt/olxc/home/scst-files
 
-and then run the 
+Edit the create-scst.sh file as needed for your requirements and available disk/sizing requirements.
+
+Then run the 
 
 > ./create-scst.sh
 

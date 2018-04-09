@@ -58,8 +58,6 @@ Then run the
 
 script which will do EVERYTHING required to configure SCST and calls this scst-3.x-debian github.
 
-(so far tested on Desktop version only, but should work on server too - testing coming).
-
 The create-scst.sh and associated scripts which are called does all of the following:
 
 * Installs SCST (for most kernels install DKMS-enabled SCST modules which auto-rebuild across kernel updates)

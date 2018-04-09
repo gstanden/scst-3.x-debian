@@ -2,6 +2,10 @@
 
 Debian dkms-enabled packaging for SCST
 
+### Begin GLS 2018-04-09 Update ###
+
+Changes to how to unpack and run scst-files.tar (see below).
+
 ### Begin GLS 2017-07-23 Update ###
 
 GLS 2017-07-29 Update
@@ -40,7 +44,11 @@ where you will find the scst-files.tar archive.
 
 Untar this archive as shown below:
 
-> tar -xvf scst-files.tar
+> tar -xvPf scst-files.tar
+
+and then 
+
+> cd /opt/olxc/home/scst-files
 
 and then run the 
 
